@@ -1,10 +1,10 @@
 ### Code Book for Course Project, Getting and Cleaning Data
 
-The raw data was from the UCI archive, the Human Activity Recognition Using Smartphones Data Set:
+The raw data was from the UCI archive, the Human Activity Recognition Using Smartphones Data Set, at:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-We obtained the data from the course web link, the original readme that describe the experiments and the data is at
+We obtained the data from the course web link, the original readme that describe the experiments and the data is at:
 
 https://github.com/yingli/GettingAndCleaningDataProject/blob/master/README_Data.txt
 
@@ -14,6 +14,7 @@ https://github.com/yingli/GettingAndCleaningDataProject/blob/master/features.txt
 
 We have made the following transformations to the original data set:
 
+* Read all training and test data, as well as subject and activity labels
 * Merges the training and the test sets of measurements 
 * Combining the subject label, the activity name, and the corresponding measurements together
 * Use the feature list of names to name the corresponding measurement variables
