@@ -8,15 +8,15 @@ Function run_analysis() expect the following data file in the working directory
 * activity_labels.txt
 * features.txt
 * X_train.txt
-X_test.txt
-y_train.txt
-y_test.txt
-subject_train.txt
-subject_test.txt
+* X_test.txt
+* y_train.txt
+* y_test.txt
+* subject_train.txt
+* subject_test.txt
 
 The function mainly does two things:
---  Merges the training and the test sets to create one data set
--- Create a tidy data set with the average of each mean and std measurements for each activity and each subject. 
+* Merges the training and the test sets to create one data set
+* Create a tidy data set with the average of each mean and std measurements for each activity and each subject. 
 The tidy data set will be saved in the program's working directory and also returned from the run_analysis() function.
 
 Another file in this repo is the code book for the generated data set.
